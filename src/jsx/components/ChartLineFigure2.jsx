@@ -250,7 +250,7 @@ function LineChart({
       },
       title: {
         align: 'left',
-        margin: 20,
+        margin: 30,
         style: {
           color: '#000',
           fontSize: '30px',

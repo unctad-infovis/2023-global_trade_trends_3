@@ -59,7 +59,7 @@ function LineChart({
           fontFamily: 'Roboto',
           fontSize: '14px'
         },
-        text: `<em>Source:</em> ${source} <br /><em>Note:</em> <span>${note} Figures for Q3 2023 are estimates. Q4 2023 is a <a href="https://unctadstat.unctad.org/en/Nowcasts.html">nowcast</a>.</span>`,
+        text: `<em>Source:</em> ${source} <br /><em>Note:</em> <span>${note}</span>`,
         verticalAlign: 'bottom',
         useHTML: true,
         x: 0
@@ -310,7 +310,7 @@ function LineChart({
         plotBands: [{
           color: '#f4f3f3',
           from: 17.5,
-          to: 18.5,
+          to: 19.5,
           label: {
             align: 'left',
             rotation: 90,
@@ -322,26 +322,8 @@ function LineChart({
             },
             text: 'Estimates',
             verticalAlign: 'bottom',
-            x: 15,
+            x: 30,
             y: -77
-          }
-        }, {
-          color: '#f4f3f3',
-          from: 18.5,
-          to: 19.5,
-          label: {
-            align: 'left',
-            rotation: 90,
-            style: {
-              color: 'rgba(0, 0, 0, 0.8)',
-              fontFamily: 'Roboto',
-              fontSize: '14px',
-              fontWeight: 400
-            },
-            text: 'Nowcast',
-            verticalAlign: 'bottom',
-            x: 15,
-            y: -70
           }
         }],
         plotLines: [{

@@ -54,7 +54,7 @@ function Figure1() {
         source="UNCTADstat; UNCTAD calculations based on national statistics."
         subtitle="Trends for trade in goods and services, quarterly growth, 2019–2023"
         suffix="%"
-        title="Trade growth: strongly negative for goods but still positive for services"
+        title="Trade growth turned negative in 2023, but services remained resilient"
         ylabel=""
       />
       )}

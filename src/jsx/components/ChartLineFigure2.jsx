@@ -374,7 +374,7 @@ function LineChart({
         min: -6,
         plotLines: [{
           color: 'rgba(124, 112, 103, 0.6)',
-          value: 100,
+          value: 0,
           width: 1
         }],
         opposite: false,
